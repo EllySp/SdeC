@@ -16,6 +16,12 @@ Los benchmark que consideramos mas importantes en nuestro caso son:
 
 **Build Linux Kernel** mide el tiempo de compilación del kernel de Linux, una tarea intensiva en CPU ideal para evaluar eficiencia en desarrollo y optimización de software, especialmente en uso de múltiples núcleos.
 
+## Time Profiling
+
+Vamos a realizar una prueba con **gprof**, un perfilador clasico que utiliza la tecnica de inyección de código. Al compilar el programa con banderas específicas, gprof inserta código adicional para medir el tiempo de ejecución de las funciones. Luego, al ejecutarlo, genera un archivo de datos que se analiza para producir un informe detallado sobre el tiempo de CPU consumido por cada parte del programa. Con esta herramienta vamos a poder validar experimentalmente la eficiencia de nuestro código y detectar áreas de mejora.
+
+
+
 
 
 
