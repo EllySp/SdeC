@@ -139,11 +139,12 @@ Cual es la aceleración cuando usamos un AMD Ryzen 9 7950X 16-Core
 
 Primero, tomamos como referencia el procesador Intel Core i5-13600K y lo comparamos con el AMD Ryzen 9 5900X 12-Core, de la tabla obtenemos los siguientes datos:
 
-Procesador           Núcleos  Tiempo (s)  Speedup  Rendimiento
--------------------------------------------------------------
-Intel i5-13600K        14        72         1.00      0.139
-AMD Ryzen 9 5900X      12        76         0.94      0.132
-AMD Ryzen 9 7950X      16        50         1.44      0.02
+| Procesador        | Núcleos | Tiempo (s) | Speedup | Rendimiento |
+|------------------|---------|------------|---------|-------------|
+| Intel i5-13600K | 14      | 72         | 1.00    | 0.0139      |
+| AMD Ryzen 9 5900X | 12    | 76         | 0.94    | 0.0132      |
+| AMD Ryzen 9 7950X | 16    | 50         | 1.44    | 0.0200      |
+
 
 Vemos que el speedup del Intel es superior, pero tambien tiene un costo superior.
 Al compararlo con el AMD Ryzen 9 7950X, vemos que este tiene un tiempo mucho menor y un speedup superior, por lo que lo convierte en una mejor opcion. Pero el costo de este es muy superior al de los otros dos.
